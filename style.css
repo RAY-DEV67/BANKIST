@@ -438,6 +438,9 @@ h2 {
   }
   .balance {
   backdrop-filter: blur(5px);
+  background-image: linear-gradient(to top left, #39b385, #9be15d);
+  padding: 1rem;
+  border-radius: 10px;
     position: sticky;
     top: 0;
     flex-direction: column;
@@ -491,10 +494,8 @@ h2 {
     /* background-color: #39b385; */
     display: none;
     /* color: white; */
-    background-color: hsla(0, 0%, 100%,5%);
+    background-image: linear-gradient(to top left, #39b385, #9be15d);
   backdrop-filter: blur(5px);
-    align-items: flex-start;
-    justify-content: space-around;
     padding-top: 5rem;
     padding-left: 2rem;
     padding-right: 3rem;
@@ -506,6 +507,12 @@ h2 {
     height: 100%;
     z-index: 39399;
     /* transform: translateX(100%); */
+  }
+  .mobile_content{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+
   }
   .mobile_loan, .mobile_close{
     margin-top: 1.5rem;

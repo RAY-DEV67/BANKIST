@@ -430,12 +430,13 @@ btnSort.addEventListener('click', function (e) {
 });
 
 $('.ham').click(function () {
-  $('.mobile').css('display', 'flex');
+  // $('.mobile').css('display', 'flex');
+  $(".mobile").slideDown()
   $('body').css('overflow-y', 'hidden');
 });
 
 function closeNav() {
-  $('.mobile').css('display', 'none');
+  $('.mobile').slideUp()
   $('body').css('overflow-y', 'scroll');
 }
 
